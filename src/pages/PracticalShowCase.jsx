@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 const PracticalShowCase = () => {
     const images = [
-        { src: 'src/assets/prac_1.jpeg', alt: 'Student performing practical 1' },
-        { src: 'src/assets/prac_2.jpeg', alt: 'Student performing practical 2' },
-        { src: 'src/assets/prac_3.jpeg', alt: 'Student performing practical 3' },
-        { src: 'src/assets/prac_4.jpeg', alt: 'Student performing practical 4' },
+        { src: '/assets/prac_1.jpeg', alt: 'Student performing practical 1' },
+        { src: '/assets/prac_2.jpeg', alt: 'Student performing practical 2' },
+        { src: '/assets/prac_3.jpeg', alt: 'Student performing practical 3' },
+        { src: '/assets/prac_4.jpeg', alt: 'Student performing practical 4' },
     ];
 
     return (

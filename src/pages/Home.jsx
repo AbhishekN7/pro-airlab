@@ -26,7 +26,7 @@ const Home = () => {
                                 borderRadius: '0.25rem'
                             }}
                         >
-                            ProChrom Analytical Institute and <br /> Research Laboratory
+                            ProChrom Analytical Institute and <br /> Research Laboratory LLP
                         </motion.h1>
                         <motion.p
                             className="mt-4 text-lg md:text-xl text-black inline-block "

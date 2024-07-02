@@ -54,7 +54,7 @@ const Contact = () => {
         <div className=''>
             <h1 className="text-3xl md:text-4xl font-bold my-4 text-center">Contact Us</h1>
             <p className="mb-8 text-center">
-                We are located at the ProChrom Analytical Institute and research laboratory, situated on Gajanan housing society, near Baliram Patil School Road, Ayodhya Nagar, Chh. Sambhajinagar (Aurangabad), Maharashtra 431005.
+                We are located at the ProChrom Analytical Institute and research laboratory LLP, situated on Gajanan housing society, near Baliram Patil School Road, Ayodhya Nagar, Chh. Sambhajinagar (Aurangabad), Maharashtra 431005.
                 You can reach us via Air, Bus, Railway, and other transport facilities available in Chh. Sambhajinagar (Aurangabad).
             </p>
             <main className="container mx-auto p-8">

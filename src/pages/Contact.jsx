@@ -51,7 +51,7 @@ const Contact = () => {
 
     const isMediumScreen = window.innerWidth <= 768;
     return (
-        <div className=''>
+        <div className='bg-gradient-to-br from-gray-100 via-white to-gray-50'>
             <h1 className="text-3xl md:text-4xl font-bold my-4 text-center">Contact Us</h1>
             <p className="mb-8 text-center">
                 We are located at the ProChrom Analytical Institute and research laboratory LLP, situated on Gajanan housing society, near Baliram Patil School Road, Ayodhya Nagar, Chh. Sambhajinagar (Aurangabad), Maharashtra 431005.

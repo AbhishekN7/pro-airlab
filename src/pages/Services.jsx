@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Services = () => {
     return (
         <div>
-            <main className="container mx-auto p-4 md:p-8">
+            <main className="container mx-auto p-4 md:p-8 bg-gradient-to-br from-gray-100 via-white to-gray-50">
                 <section className="text-center mb-8 md:mb-16">
                     <motion.h2 className="text-2xl md:text-3xl font-bold mb-4" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>Our Services</motion.h2>
                     <motion.p className="mb-4 md:mb-8 text-sm md:text-lg" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.5 }}>A Certificate Course in Analytical Instruments with 100% Placement Assistance</motion.p>
@@ -32,16 +32,16 @@ const Services = () => {
                                 <p className="text-sm md:text-base">Our team comprises seasoned experts with extensive experience in the field of analytical chemistry.</p>
                             </div>
                         </motion.div>
-                        <motion.div className="flex items-center p-4 bg-white rounded-lg shadow-lg" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 1.5 }}>
-                            <div className="text-left">
-                                <h3 className="text-lg md:text-xl font-semibold mb-2">Cutting-Edge Technology</h3>
-                                <p className="text-sm md:text-base">We leverage cutting-edge technology to guarantee superior-quality outcomes.</p>
-                            </div>
-                        </motion.div>
                         <motion.div className="flex items-center p-4 bg-white rounded-lg shadow-lg" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 2 }}>
                             <div className="text-left">
                                 <h3 className="text-lg md:text-xl font-semibold mb-2">Practical Training</h3>
                                 <p className="text-sm md:text-base">Our practical training programs are designed to provide hands-on experience using the latest technologies and methodologies in analytical chemistry.</p>
+                            </div>
+                        </motion.div>
+                        <motion.div className="flex items-center p-4 bg-white rounded-lg shadow-lg" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 1.5 }}>
+                            <div className="text-left">
+                                <h3 className="text-lg md:text-xl font-semibold mb-2">Cutting-Edge Technology</h3>
+                                <p className="text-sm md:text-base">We leverage cutting-edge technology to guarantee superior-quality outcomes.</p>
                             </div>
                         </motion.div>
                     </div>

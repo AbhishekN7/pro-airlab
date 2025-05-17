@@ -27,8 +27,11 @@ const Navbar = () => {
                     <Link to="/" className="hover:underline">
                         Home
                     </Link>
+                    <Link to="/services" className="hover:underline">
+                        What we offer
+                    </Link>
                     <Link to="/about" className="hover:underline">
-                        About
+                        About Us
                     </Link>
                     <Link to="/contact" className="hover:underline">
                         Contact
@@ -51,8 +54,11 @@ const Navbar = () => {
                         <Link to="/" className="hover:underline" onClick={toggleMenu}>
                             Home
                         </Link>
+                        <Link to="/services" className="hover:underline">
+                            What we offer
+                        </Link>
                         <Link to="/about" className="hover:underline" onClick={toggleMenu}>
-                            About
+                            About Us
                         </Link>
                         <Link to="/contact" className="hover:underline" onClick={toggleMenu}>
                             Contact

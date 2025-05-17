@@ -54,7 +54,7 @@ const Navbar = () => {
                         <Link to="/" className="hover:underline" onClick={toggleMenu}>
                             Home
                         </Link>
-                        <Link to="/services" className="hover:underline">
+                        <Link to="/services" className="hover:underline" onClick={toggleMenu}> 
                             What we offer
                         </Link>
                         <Link to="/about" className="hover:underline" onClick={toggleMenu}>
